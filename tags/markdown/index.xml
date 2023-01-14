@@ -8,6 +8,15 @@
     <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
+      <link>https://shahar-avigezer.github.io/blog/emoji-support/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/emoji-support/</guid>
+      <description>5 Takeaways From My First Job as a Software Developer I’m closing in on one year in my career as a junior full stack developer at a startup and OH BOY, what a ride it has been. I’ve learned so much during this year, here are some of my conclusions from my experience so far. 1 - Reading and understanding others’ code is one of the most valuable skills you can develop.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
       <link>https://shahar-avigezer.github.io/blog/markdown-syntax/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       

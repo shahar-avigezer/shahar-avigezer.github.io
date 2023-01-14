@@ -6,9 +6,9 @@
   <link rel="icon" href="/favicon.svg">
 
   <title>
-  Emoji Support - Shahar Avigezer
+  Markdown Syntax Guide - Shahar Avigezer
   </title>
-  <meta name="description" content="Guide to emoji usage in Hugo" />
+  <meta name="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements." />
   <meta name="author" content="Hugo Authors" />
   <meta name="generator" content="Hugo 0.109.0"><link
     rel="stylesheet"
@@ -18,22 +18,22 @@
   
   
 
-  <meta property="og:title" content="Emoji Support" />
-<meta property="og:description" content="Guide to emoji usage in Hugo" />
+  <meta property="og:title" content="Markdown Syntax Guide" />
+<meta property="og:description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shahar-avigezer.github.io/blog/emoji-support/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2021-07-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-07-15T00:00:00+00:00" />
+<meta property="article:published_time" content="2021-07-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-07-14T00:00:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Emoji Support"/>
-<meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
+<meta name="twitter:title" content="Markdown Syntax Guide"/>
+<meta name="twitter:description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements."/>
 
-  <meta itemprop="name" content="Emoji Support">
-<meta itemprop="description" content="Guide to emoji usage in Hugo"><meta itemprop="datePublished" content="2021-07-15T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-07-15T00:00:00+00:00" />
-<meta itemprop="wordCount" content="130">
-<meta itemprop="keywords" content="emoji," />
+  <meta itemprop="name" content="Markdown Syntax Guide">
+<meta itemprop="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements."><meta itemprop="datePublished" content="2021-07-14T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-07-14T00:00:00+00:00" />
+<meta itemprop="wordCount" content="664">
+<meta itemprop="keywords" content="markdown,css,html," />
 
   
 </head>
@@ -102,12 +102,12 @@
 
   
   <div class="relative max-w-5xl mx-auto px-4">
-    <img src="https://picsum.photos/id/1050/400/250" class="rounded-lg shadow-sm w-full object-contain" />
+    <img src="https://picsum.photos/id/1019/500/200" class="rounded-lg shadow-sm w-full object-contain" />
     
     <div class="absolute top-4 right-8 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white px-2 py-0.5">
       
   
-    July 15, 2021
+    July 14, 2021
   
 
 
@@ -118,7 +118,7 @@
 
   <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
 
-    <h1 class="text-2xl font-bold mb-2">Emoji Support</h1>
+    <h1 class="text-2xl font-bold mb-2">Markdown Syntax Guide</h1>
     
     <h5 class="text-sm flex items-center flex-wrap">
       <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -131,7 +131,7 @@
       </svg>
       Posted on 
   
-    July 15, 2021
+    July 14, 2021
   
 
 
@@ -143,7 +143,7 @@
         <circle cx="12" cy="12" r="9" />
         <polyline points="12 7 12 12 15 15" />
       </svg>
-      1&nbsp;minutes
+      4&nbsp;minutes
       &nbsp;&bull;
       <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -153,30 +153,92 @@
         <line x1="12" y1="6" x2="12" y2="19" />
         <line x1="21" y1="6" x2="21" y2="19" />
       </svg>
-      130&nbsp;words
+      664&nbsp;words
       
         
       
     </h5>
     
 
-    
+    <details id="TableOfContents" class="px-4 mt-4 bg-gray-100 dark:bg-gray-700 rounded toc">
+    <summary class="flex items-center font-bold py-2 px-4 cursor-pointer justify-between select-none text-black dark:text-white">
+      <span>Table of contents</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <polyline points="6 9 12 15 18 9"></polyline>
+     </svg>
+    </summary>
 
-    <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-<p>The <a href="https://gohugo.io/functions/emojify/" target="_blank" rel="noopener">&lt;code&gt;emojify&lt;/code&gt;</a>
- function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes" target="_blank" rel="noopener">Inline Shortcodes</a>
-.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/" target="_blank" rel="noopener">configuration</a>
- and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
-<p>The <a href="http://www.emoji-cheat-sheet.com/" target="_blank" rel="noopener">Emoji cheat sheet</a>
- is a useful reference for emoji shorthand codes.</p>
+    <ul class="mt-2 pb-4"><ul>
+        
+
+        
+        <li>
+        <a href="#5-takeaways-from-my-first-job-as-a-software-developer">5 Takeaways From My First Job as a Software Developer</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#im-closing-in-on-one-year-in-my-career-as-a-junior-full-stack-developer-at-a-startup-and-oh-boy-what-a-ride-it-has-been-ive-learned-so-much-during-this-year-here-are-some-of-my-conclusions-from-my-experience-so-far">I’m closing in on one year in my career as a junior full stack developer at a startup and OH BOY, what a ride it has been. I’ve learned so much during this year, here are some of my conclusions from my experience so far.</a>
+        
+
+        
+        </li></ul>
+      </li></ul>
+          <li>
+        <a href="#first-solve-the-problem-than-write-the-code">First solve the problem, than write the code</a>
+        </li></ul>
+  </details>
+
+    <h2 id="5-takeaways-from-my-first-job-as-a-software-developer">5 Takeaways From My First Job as a Software Developer</h2>
+<h3 id="im-closing-in-on-one-year-in-my-career-as-a-junior-full-stack-developer-at-a-startup-and-oh-boy-what-a-ride-it-has-been-ive-learned-so-much-during-this-year-here-are-some-of-my-conclusions-from-my-experience-so-far">I’m closing in on one year in my career as a junior full stack developer at a startup and OH BOY, what a ride it has been. I’ve learned so much during this year, here are some of my conclusions from my experience so far.</h3>
+<p><img src="https://cdn-images-1.medium.com/max/6000/1*9eOnB3K7wZa1Dc1kVBHhUA.png" alt="Where all the magic happens"></p>
+<p><strong>1 - Reading and understanding others’ code is one of the most valuable skills you can develop</strong>. 90% of my first challenges were integrating into an existing code base so most of my day included reading and debugging to figure out how things work. I dedicated time to learn and unravel the relevant code base in order to spot the exact place to seamlessly blend in and add my own code or refactor existing code.</p>
+ <iframe src="https://medium.com/media/941ccb117ed2512adb889080c754bbbf" frameborder=0></iframe>
+<p><strong>2 - Using visual thinking techniques helps solve the problem faster</strong>. I would sketch the model I was working on, the flow of the algorithm I was building or the layers of communication between the client and the server. These scribbles really assisted me in rearranging my thoughts and when I had it all laid out before me, the coding part would flow and I knew exactly what I need to do in every step.</p>
+<blockquote>
+<h1 id="first-solve-the-problem-than-write-the-code">First solve the problem, than write the code</h1>
+</blockquote>
+ <iframe src="https://medium.com/media/cb23325e63a7385b317f3e7ec09dbcaf" frameborder=0></iframe>
+<p>**3 - Reaching out to other developers is a great brainstorming opportunity. **It allowed me to get a set of fresh eyes on the solution, hear different approaches to the problem. Also, by recapping the issue at hand, I became more and more focused on the right solution. Actually, a couple of my developer friends and I have a regular coffee meet up in which we share and brainstorm all about our challenges at work and we learn a lot from it overtime.</p>
+ <iframe src="https://medium.com/media/876eaf25e419676c107bb682b22b6930" frameborder=0></iframe>
+<p>**4 - Learning about other parts of the company can upgrade your professional status. **The more I got to know how my work relates to other departments in the company, the more relevant ideas I came up with. When I worked on a piece of code, I knew exactly how it merges into the overall picture and I was able to think ahead about efficient solutions and out of the box edge cases.</p>
+<p><strong>5 - Acknowledging your limits and finding the things that refill your energy is critical to avoid burning out</strong>. The tech industry is a stressful and demanding environment and it’s easy to get sucked into it because work is never ending. As the year progressed, I’ve noticed what inspires me with motivation, and what helps me recharge. I’ve made a point to integrate these things into my day-to-day life. Whether it’s going to a good music concert, hanging out at the beach or just binge watching a good TV show — I found the time to do it. Being productive in the long term is important also to my employer, as it should be, so I learned how to raise a flag whenever I felt I needed a break.</p>
+ <iframe src="https://medium.com/media/16ffbaa1cb97f57cb84e48b7654f5386" frameborder=0></iframe>
+<ul>
+<li>
+<p>What have you learned during the past year?</p>
+</li>
+<li>
+<p>What is the skill that helped you the most in the past year?</p>
+</li>
+<li>
+<p>Which tip will you give to someone starting their development career?</p>
+</li>
+</ul>
+<p><em>Share your tips in the comments down below!</em></p>
+<p><a href="https://medium.com/@avigezerit" target="_blank" rel="noopener">Follow me on Medium</a>
+ to learn more about how to break into the tech industry and how to improve your software development skills:</p>
+<ul>
+<li>
+<p><a href="https://startupsventurecapital.com/12-steps-to-land-a-junior-developer-job-5cbdd081a8b" target="_blank" rel="noopener">12 Steps to Land a Junior Developer Job</a>
+</p>
+</li>
+<li>
+<p><a href="https://medium.com/digital-vault/10-ways-to-boost-your-linkedin-profile-to-get-hired-358156db5d8c" target="_blank" rel="noopener">10 Ways to Boost Your LinkedIn Profile To Get Hired</a>
+</p>
+</li>
+</ul>
+<p><a href="https://www.linkedin.com/in/shaharavigezer/" target="_blank" rel="noopener">Connect with me on Linkedin</a>
+ and let me know if this story helped you in any way, always happy to hear your stories :)</p>
 <hr>
 <p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>.emoji {
 </span></span><span style="display:flex;"><span>font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
 </span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+
+
   </article><div class="bg-blue-100 dark:bg-gray-900">
   <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
     <div>
