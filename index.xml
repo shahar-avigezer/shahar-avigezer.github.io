@@ -5,25 +5,33 @@
     <link>https://shahar-avigezer.github.io/</link>
     <description>Recent content on Shahar Avigezer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>https://shahar-avigezer.github.io/page/about/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      <title>3 New Dev Tools I Picked Up and What I Like Most About Them</title>
+      <link>https://shahar-avigezer.github.io/blog/new-dev-tools/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://shahar-avigezer.github.io/page/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
-https://github.com/yuin/goldmark https://github.</description>
+      <guid>https://shahar-avigezer.github.io/blog/new-dev-tools/</guid>
+      <description>As a strong believer in the idea that a new job means new habits, I&amp;rsquo;m always looking for ways to improve my workflow and boost productivity. In this post, I&amp;rsquo;ll be sharing 3 new tools that I&amp;rsquo;ve started using and highlighting the features that I like most. So, if you&amp;rsquo;re looking for some new tools to add to your developer toolkit, read on!</description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://shahar-avigezer.github.io/blog/emoji-support/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Bouncing Back from Layoff: How I Coped and Found a New Way Forward</title>
+      <link>https://shahar-avigezer.github.io/blog/bounce-back-from-layoffs/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://shahar-avigezer.github.io/blog/emoji-support/</guid>
-      <description>5 Takeaways From My First Job as a Software Developer I’m closing in on one year in my career as a junior full stack developer at a startup and OH BOY, what a ride it has been. I’ve learned so much during this year, here are some of my conclusions from my experience so far. 1 - Reading and understanding others’ code is one of the most valuable skills you can develop.</description>
+      <guid>https://shahar-avigezer.github.io/blog/bounce-back-from-layoffs/</guid>
+      <description>&amp;ldquo;Losing your job can be a tough time, and it&amp;rsquo;s not uncommon to feel lonely and uncertain. In this blog post, I share my own experience of being laid off and how I coped with it. I&amp;rsquo;ll add some tips that can help with the emotional and practical aspects of job loss. Whether you&amp;rsquo;re currently going through a layoff or just want to be prepared for the future, this post is for you.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://shahar-avigezer.github.io/page/about/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/page/about/</guid>
+      <description>Your &amp;lsquo;About Me&amp;rsquo; page should convey: What are you currently doing (in regard to your career) and how did you get there? In terms of the work you do, what aspects are you most passionate about and why? What do you consider some of your biggest professional and personal accomplishments?
+Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content.</description>
     </item>
     
     <item>
@@ -36,24 +44,6 @@ https://github.com/yuin/goldmark https://github.</description>
     </item>
     
     <item>
-      <title>Math Typesetting</title>
-      <link>https://shahar-avigezer.github.io/blog/math-typesetting/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://shahar-avigezer.github.io/blog/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://shahar-avigezer.github.io/blog/placeholder-text/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://shahar-avigezer.github.io/blog/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Rich Content</title>
       <link>https://shahar-avigezer.github.io/blog/rich-content/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
@@ -63,6 +53,15 @@ https://github.com/yuin/goldmark https://github.</description>
  for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Config&lt;/a&gt;
  and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
 &lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>5 Takeaways From My First Job as a Software Developer</title>
+      <link>https://shahar-avigezer.github.io/blog/first-year-takeaways/</link>
+      <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/first-year-takeaways/</guid>
+      <description>1 - Reading and understanding others’ code is one of the most valuable skills you can develop. 90% of my first challenges were integrating into an existing code base so most of my day included reading and debugging to figure out how things work. I dedicated time to learn and unravel the relevant code base in order to spot the exact place to seamlessly blend in and add my own code or refactor existing code.</description>
     </item>
     
   </channel>
