@@ -5,55 +5,68 @@
     <link>https://shahar-avigezer.github.io/</link>
     <description>Recent content on Shahar Avigezer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>3 New Tools I Picked Up and What I Like Most About Them</title>
-      <link>https://shahar-avigezer.github.io/blog/new-dev-tools/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <title>Get to know Tailor Brands — Vue.js Israel</title>
+      <link>https://shahar-avigezer.github.io/blog/vuejs-meetup-talk/</link>
+      <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://shahar-avigezer.github.io/blog/new-dev-tools/</guid>
-      <description>As a strong believer in the idea that a new job means new habits, I&amp;rsquo;m always looking for ways to improve my workflow and boost productivity. In this post, I&amp;rsquo;ll be sharing 3 new tools that I&amp;rsquo;ve started using and highlighting the features that I like most. So, if you&amp;rsquo;re looking for some new tools to add to your developer toolkit, read on!
-Wrap Wrap a next-level terminal, developed in Rust.</description>
+      <guid>https://shahar-avigezer.github.io/blog/vuejs-meetup-talk/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Bouncing Back from Layoff: How I Coped and Found a New Way Forward</title>
-      <link>https://shahar-avigezer.github.io/blog/bounce-back-from-layoffs/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <title>Pros &amp; Cons Of Ember Engines</title>
+      <link>https://shahar-avigezer.github.io/blog/ember-engines/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://shahar-avigezer.github.io/blog/bounce-back-from-layoffs/</guid>
-      <description>&amp;ldquo;Losing your job can be a tough time, and it&amp;rsquo;s not uncommon to feel lonely and uncertain. In this blog post, I share my own experience of being laid off and how I coped with it. I&amp;rsquo;ll add some tips that can help with the emotional and practical aspects of job loss. Whether you&amp;rsquo;re currently going through a layoff or just want to be prepared for the future, this post is for you.</description>
+      <guid>https://shahar-avigezer.github.io/blog/ember-engines/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>https://shahar-avigezer.github.io/page/about/</link>
-      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      <title>Tailor Tech Goes Open Source: Our Current Projects</title>
+      <link>https://shahar-avigezer.github.io/blog/tailor-tech-open-source/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://shahar-avigezer.github.io/page/about/</guid>
-      <description>Your &amp;lsquo;About Me&amp;rsquo; page should convey: What are you currently doing (in regard to your career) and how did you get there? In terms of the work you do, what aspects are you most passionate about and why? What do you consider some of your biggest professional and personal accomplishments?
-Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content.</description>
+      <guid>https://shahar-avigezer.github.io/blog/tailor-tech-open-source/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://shahar-avigezer.github.io/blog/markdown-syntax/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Coronavirus Lockdown: How To Work From Home and Keep Your Sanity</title>
+      <link>https://shahar-avigezer.github.io/blog/work-under-lockdown/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://shahar-avigezer.github.io/blog/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://shahar-avigezer.github.io/blog/work-under-lockdown/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Rich Content</title>
-      <link>https://shahar-avigezer.github.io/blog/rich-content/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Make your life easier with Vuex — The When, Why and How</title>
+      <link>https://shahar-avigezer.github.io/blog/all-about-vuex/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://shahar-avigezer.github.io/blog/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Built-in Shortcodes&lt;/a&gt;
- for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Config&lt;/a&gt;
- and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
+      <guid>https://shahar-avigezer.github.io/blog/all-about-vuex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>7 Tips To Have An Easy Start In Your New Job</title>
+      <link>https://shahar-avigezer.github.io/blog/new-job-tips/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/new-job-tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Query like A Pro — MongoDB Toolbox</title>
+      <link>https://shahar-avigezer.github.io/blog/mongo-db-query/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/mongo-db-query/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -62,7 +75,25 @@ Written in Go, Hugo is an open source static site generator available under the 
       <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://shahar-avigezer.github.io/blog/first-year-takeaways/</guid>
-      <description>1 - Reading and understanding others’ code is one of the most valuable skills you can develop. 90% of my first challenges were integrating into an existing code base so most of my day included reading and debugging to figure out how things work. I dedicated time to learn and unravel the relevant code base in order to spot the exact place to seamlessly blend in and add my own code or refactor existing code.</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>12 Steps to Land a Junior Developer Job</title>
+      <link>https://shahar-avigezer.github.io/blog/get-junior-job/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/get-junior-job/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://shahar-avigezer.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/page/about/</guid>
+      <description>I am a Full Stack Developer with experience in various technologies such as TypeScript, Vue.js, Node.js, GCP, Docker, SQL, Ember.js, Ruby on Rails, Go, AWS, PostgreSQL, Java, Android, Scala, Play, and MongoDB. I have a strong background in both frontend and backend development, with a particular interest in backend logic and API design. I am currently a Software Engineer at Riskified and have previously worked at Snyk, Tailor Brands and Hello Heart Mobile.</description>
     </item>
     
   </channel>

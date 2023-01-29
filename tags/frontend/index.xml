@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>frontend on Shahar Avigezer</title>
+    <link>https://shahar-avigezer.github.io/tags/frontend/</link>
+    <description>Recent content in frontend on Shahar Avigezer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pros &amp; Cons Of Ember Engines</title>
+      <link>https://shahar-avigezer.github.io/blog/ember-engines/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/ember-engines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Query like A Pro — MongoDB Toolbox</title>
+      <link>https://shahar-avigezer.github.io/blog/mongo-db-query/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/mongo-db-query/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

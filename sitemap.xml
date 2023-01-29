@@ -2,66 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shahar-avigezer.github.io/blog/new-dev-tools/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://shahar-avigezer.github.io/blog/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/blog/bounce-back-from-layoffs/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/dev/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/job/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/layoffs/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/blog/vuejs-meetup-talk/</loc>
+    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/software/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/tools/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/tags/vuex/</loc>
+    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/page/about/</loc>
-    <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/tags/ember/</loc>
+    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/page/</loc>
-    <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/tags/frontend/</loc>
+    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/css/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/blog/ember-engines/</loc>
+    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/html/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/tags/open-source/</loc>
+    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/markdown/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/blog/tailor-tech-open-source/</loc>
+    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/blog/markdown-syntax/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/blog/work-under-lockdown/</loc>
+    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/privacy/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/tags/lockdown/</loc>
+    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/blog/rich-content/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/blog/all-about-vuex/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/shortcodes/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/blog/new-job-tips/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/blog/mongo-db-query/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/blog/first-year-takeaways/</loc>
     <lastmod>2017-12-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://shahar-avigezer.github.io/blog/get-junior-job/</loc>
+    <lastmod>2017-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/job-search/</loc>
+    <lastmod>2017-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/page/about/</loc>
+  </url><url>
     <loc>https://shahar-avigezer.github.io/categories/</loc>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/page/</loc>
   </url>
 </urlset>
