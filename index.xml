@@ -5,14 +5,15 @@
     <link>https://shahar-avigezer.github.io/</link>
     <description>Recent content on Shahar Avigezer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Get to know Tailor Brands — Vue.js Israel</title>
-      <link>https://shahar-avigezer.github.io/blog/vuejs-meetup-talk/</link>
-      <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
+      <title>איך הפכתי ממעצבת למתכנתת בחצי שנה</title>
+      <link>https://shahar-avigezer.github.io/he/blog/hasava/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://shahar-avigezer.github.io/blog/vuejs-meetup-talk/</guid>
-      <description></description>
+      <guid>https://shahar-avigezer.github.io/he/blog/hasava/</guid>
+      <description>הכל התחיל בקריירה הקודמת שלי, כמעצבת UX/UI, כ4 שנים, כשהייתי עובדת עם צוותי פיתוח כאאוטסורס בשלל חברות. העבודה שלהם תמיד הייתה נראית לי כמו קסם 🤩 והיה מתפוצץ לי המח כשהעיצובים שלי קמו לתחייה!
+אחרי שסיימתי תקופה בסטודיו שעבדתי בו, נוצרה לי הזדמנות ללמוד קורס פיתוח אנדרואיד בג&amp;rsquo;ון ברייס. אהבתי את הרעיון של לרכוש סקיל כזה וחשבתי שבטח יהיה לי יותר קל לתקשר עם מפתחות ומפתחים לצידי. בכללי, אני מאמינה שטוב להכיר בצורה בסיסית את מאחורי הקלעים של צוותים שעובדים איתם ביום ביום.</description>
     </item>
     
     <item>
@@ -25,21 +26,21 @@
     </item>
     
     <item>
-      <title>Tailor Tech Goes Open Source: Our Current Projects</title>
-      <link>https://shahar-avigezer.github.io/blog/tailor-tech-open-source/</link>
-      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      <title>אני מרוויחה יותר מהבן זוג שלי ואנחנו לא מתביישים בזה</title>
+      <link>https://shahar-avigezer.github.io/he/blog/woman-make-more/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://shahar-avigezer.github.io/blog/tailor-tech-open-source/</guid>
+      <guid>https://shahar-avigezer.github.io/he/blog/woman-make-more/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coronavirus Lockdown: How To Work From Home and Keep Your Sanity</title>
+      <title>Coronavirus Lockdown: How To Work From Home and Stay Sane</title>
       <link>https://shahar-avigezer.github.io/blog/work-under-lockdown/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://shahar-avigezer.github.io/blog/work-under-lockdown/</guid>
-      <description></description>
+      <description>The challenge: WFH for weeks, with/without kids, under quarantine. Go, go, go. Well, I’ve past the first week and trust me, I’ve done all the mistakes. Here are some tips to get through. So, how did we come to this? Due to the COVID-19 spreading out, On March 14, Saturday evening, Israel’s prime minister announced a shutdown for schools, pre-schools, cafes, theaters, restaurants and restrict most of the movement. Also, he decided to close down any non-essential businesses and advised workers to stay away from offices.</description>
     </item>
     
     <item>
@@ -49,15 +50,6 @@
       
       <guid>https://shahar-avigezer.github.io/blog/all-about-vuex/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>הפיטורים, החיפוש ומה שביניהם</title>
-      <link>https://shahar-avigezer.github.io/he/blog/layoffs/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://shahar-avigezer.github.io/he/blog/layoffs/</guid>
-      <description>אני שומעת על עוד ועוד פיטורים סביבי אז החלטתי לכתוב על איך התמודדתי עם הפיטורים, רגשית ומעשית. אחרי שמונה חודשים שעבדתי בחברה, הוחלט לפטר אותי כחלק מגל צמצומים. וכן, זה כואב. ועצוב. ומפתיע. ופוגע. ומלחיץ. אני שמחה לספר שמאז הצלחתי להשיג עבודה חדשה במקום מדהים אבל התקופה הזאת הייתה קשה. בתור מפרנסת עיקרית למשפחה של 5 נפשות, זאת גם חרדה כלכלית עצומה שאין לתאר. בפוסט הזה אני אספר על איך שמרתי על עצמי שפויה וצלחתי את התקופה הזאת.</description>
     </item>
     
     <item>

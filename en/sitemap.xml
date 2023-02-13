@@ -2,24 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shahar-avigezer.github.io/blog/</loc>
-    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="he"
-                href="https://shahar-avigezer.github.io/he/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shahar-avigezer.github.io/blog/"
-                />
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/blog/vuejs-meetup-talk/</loc>
-    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/he/</loc>
+    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/</loc>
-    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -32,7 +19,7 @@
                 />
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/software/</loc>
-    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -45,7 +32,7 @@
                 />
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/</loc>
-    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -57,8 +44,47 @@
                 href="https://shahar-avigezer.github.io/tags/"
                 />
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/vuex/</loc>
-    <lastmod>2022-12-11T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/tags/tech/</loc>
+    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://shahar-avigezer.github.io/he/tags/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shahar-avigezer.github.io/tags/tech/"
+                />
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/transition/</loc>
+    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://shahar-avigezer.github.io/he/tags/transition/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shahar-avigezer.github.io/tags/transition/"
+                />
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/he/blog/hasava/</loc>
+    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/blog/</loc>
+    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://shahar-avigezer.github.io/he/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shahar-avigezer.github.io/blog/"
+                />
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/ember/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
@@ -69,21 +95,8 @@
     <loc>https://shahar-avigezer.github.io/blog/ember-engines/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/open-source/</loc>
-    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="he"
-                href="https://shahar-avigezer.github.io/he/tags/open-source/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shahar-avigezer.github.io/tags/open-source/"
-                />
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/blog/tailor-tech-open-source/</loc>
-    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/he/blog/woman-make-more/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/blog/work-under-lockdown/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
@@ -91,13 +104,10 @@
     <loc>https://shahar-avigezer.github.io/tags/lockdown/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/he/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://shahar-avigezer.github.io/blog/all-about-vuex/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/he/blog/layoffs/</loc>
+    <loc>https://shahar-avigezer.github.io/tags/open-source/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/blog/new-job-tips/</loc>
@@ -151,6 +161,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://shahar-avigezer.github.io/page/"
+                />
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/ux/ui/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://shahar-avigezer.github.io/he/tags/ux/ui/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shahar-avigezer.github.io/tags/ux/ui/"
                 />
   </url>
 </urlset>
