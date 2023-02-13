@@ -3,10 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://shahar-avigezer.github.io/he/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/open-source/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://shahar-avigezer.github.io/he/tags/open-source/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shahar-avigezer.github.io/tags/open-source/"
+                />
   </url><url>
     <loc>https://shahar-avigezer.github.io/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -19,7 +32,7 @@
                 />
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/software/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -32,7 +45,7 @@
                 />
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -43,6 +56,9 @@
                 hreflang="en"
                 href="https://shahar-avigezer.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/he/blog/layoffs/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/tech/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
@@ -105,9 +121,6 @@
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/blog/all-about-vuex/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/open-source/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/blog/new-job-tips/</loc>
