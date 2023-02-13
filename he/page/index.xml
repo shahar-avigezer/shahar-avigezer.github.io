@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Shahar Avigezer</title>
+    <link>https://shahar-avigezer.github.io/he/page/</link>
+    <description>Recent content in Pages on Shahar Avigezer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://shahar-avigezer.github.io/he/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://shahar-avigezer.github.io/he/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/page/about/</guid>
+      <description>היי תוכן בעברית I am a Full Stack Developer with experience in various technologies such as TypeScript, Vue.js, Node.js, GCP, Docker, SQL, Ember.js, Ruby on Rails, Go, AWS, PostgreSQL, Java, Android, Scala, Play, and MongoDB. I have a strong background in both frontend and backend development, with a particular interest in backend logic and API design. I am currently a Software Engineer at Riskified and have previously worked at Snyk, Tailor Brands and Hello Heart Mobile.</description>
+    </item>
+    
+  </channel>
+</rss>

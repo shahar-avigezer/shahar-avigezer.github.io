@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Shahar Avigezer</title>
+    <link>https://shahar-avigezer.github.io/he/tags/</link>
+    <description>Recent content in Tags on Shahar Avigezer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/he/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>open source</title>
+      <link>https://shahar-avigezer.github.io/he/tags/open-source/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://shahar-avigezer.github.io/he/tags/software/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/tags/software/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

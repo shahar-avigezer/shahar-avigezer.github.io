@@ -52,6 +52,15 @@
     </item>
     
     <item>
+      <title>הפיטורים, החיפוש ומה שביניהם</title>
+      <link>https://shahar-avigezer.github.io/he/blog/layoffs/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/blog/layoffs/</guid>
+      <description>אני שומעת על עוד ועוד פיטורים סביבי אז החלטתי לכתוב על איך התמודדתי עם הפיטורים, רגשית ומעשית. אחרי שמונה חודשים שעבדתי בחברה, הוחלט לפטר אותי כחלק מגל צמצומים. וכן, זה כואב. ועצוב. ומפתיע. ופוגע. ומלחיץ. אני שמחה לספר שמאז הצלחתי להשיג עבודה חדשה במקום מדהים אבל התקופה הזאת הייתה קשה. בתור מפרנסת עיקרית למשפחה של 5 נפשות, זאת גם חרדה כלכלית עצומה שאין לתאר. בפוסט הזה אני אספר על איך שמרתי על עצמי שפויה וצלחתי את התקופה הזאת.</description>
+    </item>
+    
+    <item>
       <title>7 Tips To Have An Easy Start In Your New Job</title>
       <link>https://shahar-avigezer.github.io/blog/new-job-tips/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
@@ -89,11 +98,20 @@
     
     <item>
       <title>About Me</title>
+      <link>https://shahar-avigezer.github.io/he/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/page/about/</guid>
+      <description>היי תוכן בעברית I am a Full Stack Developer with experience in various technologies such as TypeScript, Vue.js, Node.js, GCP, Docker, SQL, Ember.js, Ruby on Rails, Go, AWS, PostgreSQL, Java, Android, Scala, Play, and MongoDB. I have a strong background in both frontend and backend development, with a particular interest in backend logic and API design. I am currently a Software Engineer at Riskified and have previously worked at Snyk, Tailor Brands and Hello Heart Mobile.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
       <link>https://shahar-avigezer.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shahar-avigezer.github.io/page/about/</guid>
-      <description>I am a Full Stack Developer with experience in various technologies such as TypeScript, Vue.js, Node.js, GCP, Docker, SQL, Ember.js, Ruby on Rails, Go, AWS, PostgreSQL, Java, Android, Scala, Play, and MongoDB. I have a strong background in both frontend and backend development, with a particular interest in backend logic and API design. I am currently a Software Engineer at Riskified and have previously worked at Snyk, Tailor Brands and Hello Heart Mobile.</description>
+      <description>Full stack developer I am a Full Stack Developer with experience in various technologies such as TypeScript, Vue.js, Node.js, GCP, Docker, SQL, Ember.js, Ruby on Rails, Go, AWS, PostgreSQL, Java, Android, Scala, Play, and MongoDB. I have a strong background in both frontend and backend development, with a particular interest in backend logic and API design. I am currently a Software Engineer at Riskified and have previously worked at Snyk, Tailor Brands and Hello Heart Mobile.</description>
     </item>
     
   </channel>
