@@ -99,20 +99,11 @@
     <loc>https://shahar-avigezer.github.io/he/blog/hasava/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://shahar-avigezer.github.io/he/blog/twins-in-cv/</loc>
+    <lastmod>2021-12-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://shahar-avigezer.github.io/he/blog/woman-make-more/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/he/page/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shahar-avigezer.github.io/page/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="he"
-                href="https://shahar-avigezer.github.io/he/page/about/"
-                />
   </url><url>
     <loc>https://shahar-avigezer.github.io/he/categories/</loc>
     <xhtml:link
@@ -148,6 +139,18 @@
                 rel="alternate"
                 hreflang="he"
                 href="https://shahar-avigezer.github.io/he/tags/ux/ui/"
+                />
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/he/page/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shahar-avigezer.github.io/page/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://shahar-avigezer.github.io/he/page/about/"
                 />
   </url>
 </urlset>
