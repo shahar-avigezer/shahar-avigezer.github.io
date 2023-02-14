@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Shahar Avigezer</title>
+    <link>https://shahar-avigezer.github.io/blog/</link>
+    <description>Recent content in Blog on Shahar Avigezer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pros &amp; Cons Of Ember Engines</title>
+      <link>https://shahar-avigezer.github.io/blog/ember-engines/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/ember-engines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coronavirus Lockdown: How To Work From Home and Stay Sane</title>
+      <link>https://shahar-avigezer.github.io/blog/work-under-lockdown/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/work-under-lockdown/</guid>
+      <description>The challenge: WFH for weeks, with/without kids, under quarantine. Go, go, go. Well, I’ve past the first week and trust me, I’ve done all the mistakes. Here are some tips to get through. So, how did we come to this? Due to the COVID-19 spreading out, On March 14, Saturday evening, Israel’s prime minister announced a shutdown for schools, pre-schools, cafes, theaters, restaurants and restrict most of the movement. Also, he decided to close down any non-essential businesses and advised workers to stay away from offices.</description>
+    </item>
+    
+    <item>
+      <title>Make your life easier with Vuex — The When, Why and How</title>
+      <link>https://shahar-avigezer.github.io/blog/all-about-vuex/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/all-about-vuex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>7 Tips To Have An Easy Start In Your New Job</title>
+      <link>https://shahar-avigezer.github.io/blog/new-job-tips/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/new-job-tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Query like A Pro — MongoDB Toolbox</title>
+      <link>https://shahar-avigezer.github.io/blog/mongo-db-query/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/mongo-db-query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5 Takeaways From My First Job as a Software Developer</title>
+      <link>https://shahar-avigezer.github.io/blog/first-year-takeaways/</link>
+      <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/first-year-takeaways/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>12 Steps to Land a Junior Developer Job</title>
+      <link>https://shahar-avigezer.github.io/blog/get-junior-job/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/get-junior-job/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

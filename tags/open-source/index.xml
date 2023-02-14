@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open source on Shahar Avigezer</title>
+    <link>https://shahar-avigezer.github.io/tags/open-source/</link>
+    <description>Recent content in open source on Shahar Avigezer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>הפיטורים, החיפוש ומה שביניהם</title>
+      <link>https://shahar-avigezer.github.io/he/blog/layoffs/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/blog/layoffs/</guid>
+      <description>אני שומעת על עוד ועוד פיטורים סביבי אז החלטתי לכתוב על איך התמודדתי עם הפיטורים, רגשית ומעשית. אחרי שמונה חודשים שעבדתי בחברה, הוחלט לפטר אותי כחלק מגל צמצומים. וכן, זה כואב. ועצוב. ומפתיע. ופוגע. ומלחיץ. אני שמחה לספר שמאז הצלחתי להשיג עבודה חדשה במקום מדהים אבל התקופה הזאת הייתה קשה. בתור מפרנסת עיקרית למשפחה של 5 נפשות, זאת גם חרדה כלכלית עצומה שאין לתאר. בפוסט הזה אני אספר על איך שמרתי על עצמי שפויה וצלחתי את התקופה הזאת.</description>
+    </item>
+    
+    <item>
+      <title>החלטתי להוסיף את ״חופשת״ הלידה לקו״ח!</title>
+      <link>https://shahar-avigezer.github.io/he/blog/twins-in-cv/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/blog/twins-in-cv/</guid>
+      <description>הנה זה הגיע, סיימתי עם התקופה של חופשת הלידה, שהייתה הרבה דברים חוץ מחופשה. אחרי הלידה של התאומות שלי, הייתי ברכבת הרים רגשית ופיזית. התקופה הזו אתגרה אותי, את המשפחה, את הגבר שלי.התקופה הזו הייתה כמו עבודה של שלוש שנים בסטראטאפ אינטנסיבי דחוסות לכמה חודשים.
+ולכן החלטתי - אני מוסיפה את התקופה הזו לקורות החיים שלי. אני מאמינה שרכשתי בתקופה הזאת כלים ויכולות שלא מביישים אף קורס, סמינר או סדנה שעשיתי או אי פעם אעשה:</description>
+    </item>
+    
+    <item>
+      <title>Make your life easier with Vuex — The When, Why and How</title>
+      <link>https://shahar-avigezer.github.io/blog/all-about-vuex/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/all-about-vuex/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

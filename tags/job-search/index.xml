@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>job search on Shahar Avigezer</title>
+    <link>https://shahar-avigezer.github.io/tags/job-search/</link>
+    <description>Recent content in job search on Shahar Avigezer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 20 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/tags/job-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>12 Steps to Land a Junior Developer Job</title>
+      <link>https://shahar-avigezer.github.io/blog/get-junior-job/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/get-junior-job/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
