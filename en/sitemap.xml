@@ -2,7 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shahar-avigezer.github.io/blog/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://shahar-avigezer.github.io/he/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shahar-avigezer.github.io/blog/"
+                />
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/blog/bounce-back-from-layoffs/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://shahar-avigezer.github.io/he/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/job/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/layoffs/</loc>
     <lastmod>2023-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/open-source/</loc>
@@ -88,19 +110,6 @@
   </url><url>
     <loc>https://shahar-avigezer.github.io/he/blog/hasava/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/blog/</loc>
-    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="he"
-                href="https://shahar-avigezer.github.io/he/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shahar-avigezer.github.io/blog/"
-                />
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/ember/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
