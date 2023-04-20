@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>podcast on Shahar Avigezer</title>
+    <link>https://shahar-avigezer.github.io/tags/podcast/</link>
+    <description>Recent content in podcast on Shahar Avigezer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>כלים למציאת עבודה אחרי הפיטורין!</title>
+      <link>https://shahar-avigezer.github.io/he/blog/bg-podcast/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/blog/bg-podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>להיות מפוטרת ולקום חזרה על הרגליים</title>
+      <link>https://shahar-avigezer.github.io/he/blog/hp-podcast/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/blog/hp-podcast/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

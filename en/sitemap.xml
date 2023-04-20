@@ -40,6 +40,19 @@
                 href="https://shahar-avigezer.github.io/tags/open-source/"
                 />
   </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/podcast/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://shahar-avigezer.github.io/he/tags/podcast/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shahar-avigezer.github.io/tags/podcast/"
+                />
+  </url><url>
     <loc>https://shahar-avigezer.github.io/</loc>
     <lastmod>2023-02-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -79,11 +92,8 @@
                 href="https://shahar-avigezer.github.io/tags/"
                 />
   </url><url>
-    <loc>https://shahar-avigezer.github.io/he/blog/layoffs/</loc>
-    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://shahar-avigezer.github.io/tags/tech/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -94,6 +104,15 @@
                 hreflang="en"
                 href="https://shahar-avigezer.github.io/tags/tech/"
                 />
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/he/blog/layoffs/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/he/blog/bg-podcast/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/he/blog/hp-podcast/</loc>
+    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/transition/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
