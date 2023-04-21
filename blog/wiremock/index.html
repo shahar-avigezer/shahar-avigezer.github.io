@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="/favicon.ico">
+
+  <title>
+  Quick guide for mocking API calls with Wiremock on Docker - Shahar Avigezer
+  </title>
+  <meta name="description" content="Develop locally without even leaving your environment! You can mock yor API calls with Wiremock for more efficient testing and development." />
+  <meta name="author" content="Shahar Avigezer" />
+  <meta name="generator" content="Hugo 0.109.0"><link
+    rel="stylesheet"
+    href="https://shahar-avigezer.github.io/css/styles.min.0fa5795d217069d03f5ebc35dc2d9393ef867e4e8a663411adc3e5beea470dab.css"
+    integrity="sha256-D6V5XSFwadA/Xrw13C2Tk++Gfk6KZjQRrcPlvupHDas="
+  />
+  
+  <link href='https://fonts.googleapis.com/css?family=Rubik:100,300,500,700,500i' rel='stylesheet'>
+
+  
+  
+
+  <meta property="og:title" content="Quick guide for mocking API calls with Wiremock on Docker" />
+<meta property="og:description" content="Develop locally without even leaving your environment! You can mock yor API calls with Wiremock for more efficient testing and development." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shahar-avigezer.github.io/blog/wiremock/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-04-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-04-16T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Quick guide for mocking API calls with Wiremock on Docker"/>
+<meta name="twitter:description" content="Develop locally without even leaving your environment! You can mock yor API calls with Wiremock for more efficient testing and development."/>
+
+  <meta itemprop="name" content="Quick guide for mocking API calls with Wiremock on Docker">
+<meta itemprop="description" content="Develop locally without even leaving your environment! You can mock yor API calls with Wiremock for more efficient testing and development."><meta itemprop="datePublished" content="2023-04-16T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-04-16T00:00:00+00:00" />
+<meta itemprop="wordCount" content="493">
+<meta itemprop="keywords" content="software,tools,dev,docker,mock," />
+
+  
+  <meta name="lang" content="en" />
+  
+</head>
+<body class="bg-gray-800 text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative"
+  >
+  <a href="https://shahar-avigezer.github.io/" class="capitalize font-extrabold text-2xl">
+    
+    Shahar Avigezer
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-gray-800">
+
+    
+    <li><a href="/blog">Blog</a></li>
+    
+    <li><a href="/page/about/">About</a></li>
+    
+
+    
+    
+    <li class="flex items-center">
+      
+      
+      
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-2" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <circle cx="12" cy="12" r="9" />
+        <line x1="3.6" y1="9" x2="20.4" y2="9" />
+        <line x1="3.6" y1="15" x2="20.4" y2="15" />
+        <path d="M11.5 3a17 17 0 0 0 0 18" />
+        <path d="M12.5 3a17 17 0 0 1 0 18" />
+      </svg>
+      <a href="/he" lang="he">Hebrew</a>
+      
+      
+    </li>
+    
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+  <div class="relative max-w-3xl mx-auto px-4">
+    <img src="/post-header-wiremock.jpeg" class="rounded-lg shadow-sm w-full object-contain" />
+  </div>
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 prose-dark px-4 "
+   >
+
+    <h1 class="text-2xl font-bold mb-2">Quick guide for mocking API calls with Wiremock on Docker</h1>
+    
+    <h5 class="text-sm flex items-center flex-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="5" width="16" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="4" y1="11" x2="20" y2="11" />
+        <rect x="8" y="15" width="2" height="2" />
+      </svg>
+      
+  
+    April 16, 2023
+  
+
+
+      
+        &nbsp;&bull;&nbsp;
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 15" />
+      </svg>
+       3&nbsp;minutes
+      &nbsp;&bull;
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <line x1="3" y1="6" x2="3" y2="19" />
+        <line x1="12" y1="6" x2="12" y2="19" />
+        <line x1="21" y1="6" x2="21" y2="19" />
+      </svg>
+      493&nbsp;words
+      
+    </h5>
+    
+
+    
+
+    <p>As a developer working with microservices architecture, I know firsthand how challenging it can be to deal with dependencies on other services within the cluster or external APIs. It can sometimes slow down the development process and make debugging or testing a real headache.</p>
+<p>This post is all about how I implemented a solution that made my development process a whole lot easier. <strong><a href="https://wiremock.org/" target="_blank" rel="noopener">Wiremock</a>
+</strong> is a powerful an open-source mocking tool that can simulate external service behavior and allows you to create mock servers allowing for more efficient testing and development.</p>
+<h2 id="how-to-set-up-a-wiremock-server-on-docker">How to set up a Wiremock server on Docker?</h2>
+<p>I&rsquo;ll be using an example with on of my own favorite topics - WWE Wrestling!
+The server will be called <code>wwe-server</code> and we&rsquo;re going to call <code>api/v1/hall-of-fame</code> endpoint to get a list of hall of famers wrestlers.</p>
+<img src="https://media.giphy.com/media/VHYfQwokdZNwf0Ymo1/giphy.gif" class="rounded-lg shadow-sm w-full object-contain" />
+<h3 id="1---install-wiremock-package">1 - Install Wiremock package</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx wiremock
+</span></span></code></pre></div><h3 id="2---add-wiremock-docker-image">2 - Add Wiremock Docker image</h3>
+<p>In your <code>/docker-compose.yml</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-.yaml" data-lang=".yaml"><span style="display:flex;"><span> <span style="color:#ff79c6">wiremock-wwe-server</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">image</span>: wiremock/wiremock:2.32.0
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">ports</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#bd93f9">3001</span>:<span style="color:#bd93f9">8080</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">volumes</span>:
+</span></span><span style="display:flex;"><span>      - ./wiremock/wwe-server:/home/wiremock
+</span></span></code></pre></div><h3 id="3---create-mock-response-files">3 - Create mock response files</h3>
+<p>Create a file <code>wiremock/wwe-server/__files/hall-of-famers.json</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>[
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#bd93f9">1</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;stage_name&#34;</span>: <span style="color:#f1fa8c">&#34;Stone Cold Steve Austin&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;full_name&#34;</span>: <span style="color:#f1fa8c">&#34;Steve Austin&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;category&#34;</span>: <span style="color:#f1fa8c">&#34;Individual&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;createdAt&#34;</span>: <span style="color:#f1fa8c">&#34;2009-01-01T00:32:28.996Z&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;updatedAt&#34;</span>: <span style="color:#f1fa8c">&#34;2009-01-01T00:32:28.996Z&#34;</span>,
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#bd93f9">2</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;stage_name&#34;</span>: <span style="color:#f1fa8c">&#34;Eddie Guerrero&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;full_name&#34;</span>: <span style="color:#f1fa8c">&#34;Eduardo Gory Guerrero Llanes&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;category&#34;</span>: <span style="color:#f1fa8c">&#34;Individual&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;createdAt&#34;</span>: <span style="color:#f1fa8c">&#34;2009-01-01T00:32:28.996Z&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;updatedAt&#34;</span>: <span style="color:#f1fa8c">&#34;2009-01-01T00:32:28.996Z&#34;</span>,
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#bd93f9">3</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;stage_name&#34;</span>: <span style="color:#f1fa8c">&#34;The Undertaker&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;full_name&#34;</span>: <span style="color:#f1fa8c">&#34;Mark William Calaway&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;category&#34;</span>: <span style="color:#f1fa8c">&#34;Individual&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;createdAt&#34;</span>: <span style="color:#f1fa8c">&#34;2022-01-01T00:32:28.996Z&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;updatedAt&#34;</span>: <span style="color:#f1fa8c">&#34;2022-01-01T00:32:28.996Z&#34;</span>,
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>]
+</span></span></code></pre></div><h3 id="4---map-api-calls">4 - Map API calls</h3>
+<p>Create a file <code>wiremock/wwe-server/mappings/hall-of-famers.json</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&#34;request&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;method&#34;</span>: <span style="color:#f1fa8c">&#34;GET&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;urlPath&#34;</span>: <span style="color:#f1fa8c">&#34;/api/v1/hall-of-fame&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&#34;response&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;status&#34;</span>: <span style="color:#bd93f9">200</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;bodyFileName&#34;</span>: <span style="color:#f1fa8c">&#34;hall-of-famers.json&#34;</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="5---spin-up-docker">5 - Spin up docker</h3>
+<p>In your docker root directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker-compose up
+</span></span></code></pre></div><p>Check the logs of your wiremock image:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker logs <span style="color:#ff79c6">[</span>server-prefix<span style="color:#ff79c6">]</span>-wiremock-wwe-server-1
+</span></span></code></pre></div><img src="/post-in-wiremock-docker-logs.png" class="rounded-lg shadow-sm w-full object-contain" />
+<h3 id="6---test-api-call-to-our-mock">6 - Test API call to our mock</h3>
+<p>This is a good spot to stop and test the API call</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -GET -H <span style="color:#f1fa8c">&#34;Content-type: application/json&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">&#39;http://localhost:3001/api/v1/hall-of-fame&#39;</span>
+</span></span></code></pre></div><p>Lo and behold, we get a response!</p>
+<img src="/post-in-wiremock-http-response.png" class="rounded-lg shadow-sm w-full object-contain" />
+<img src="https://media.giphy.com/media/XBWrLAZricVcBwL8r4/giphy.gif" class="rounded-lg shadow-sm w-full object-contain" />
+---
+<h2 id="down-to-the-wire">Down to the wire</h2>
+<p>As you can see, The API calls have&hellip; <em>spoiler: a mediocre joke ahead -</em> No Way Out 🥁 (former WWE wrestling event). By using simple JSON files I&rsquo;m able to mock the external APIs response and continue to work on my own server.</p>
+<h3 id="pros">Pros</h3>
+<ol>
+<li>You can run faster in your testing or development without having to run a whole local setup.</li>
+<li>You save calls to external services which comes in handy to avoid hitting API rate limit.</li>
+</ol>
+<h3 id="cons">Cons</h3>
+<ol>
+<li>You&rsquo;ll need to plan ahead your calls mapping is not dynamic so make sure you align your calls with the data. However, you can use regex for matching different query params.</li>
+<li>You&rsquo;ll have to maintain your data with the expected response of the external API calls.</li>
+</ol>
+<h2 id="-ding-ding-ding">🔔 Ding Ding Ding</h2>
+<p>Ok winners, I hope this tutorial helped you out! You can do a lot more with Wiremock so use this baseline to enrich the requests with headers, query params, body payload and more. You can even create stub mappings from requests by recording it. For additional documentation head over to <a href="https://wiremock.org/docs/" target="_blank" rel="noopener">Wiremock docs</a>
+.</p>
+<img src="https://media.giphy.com/media/l0HUqrqFWvo5Kmpaw/giphy.gif" class="rounded-lg shadow-sm w-full object-contain" />
+
+  </article><div class="bg-gray-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div class="flex justify-center lg:justify-end">
+      <div class="text-md font-light opacity-80">Spending/wasting my time on</div>
+      <p class="opacity-60"></p>
+    </div>
+
+    <ul class="flex justify-center lg:justify-start gap-x-1 flex-wrap gap-y-2">
+      
+
+      
+      <li>
+        <a
+          href="https://twitter.com/ShaharAvigezer"
+          target="_blank"
+          rel="noopener"
+          aria-label="Twitter"
+          class="p-1 inline-block rounded-full border border-transparent cursor-pointer transition-colors text-gray-400 hover:border-gray-300 hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"
+            />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://www.linkedin.com/in/shaharavigezer/"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+          class="p-1 inline-block rounded-full border border-transparent cursor-pointer transition-colors text-gray-400 hover:border-gray-300 hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <line x1="8" y1="11" x2="8" y2="16" />
+            <line x1="8" y1="8" x2="8" y2="8.01" />
+            <line x1="12" y1="16" x2="12" y2="11" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://github.com/shahar-avigezer"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+          class="p-1 inline-block rounded-full border border-transparent cursor-pointer transition-colors text-gray-400 hover:border-gray-300 hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+            />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://medium.com/@shahar_avigezer"
+          target="_blank"
+          rel="noopener"
+          aria-label="Medium"
+          class="p-1 inline-block rounded-full border border-transparent cursor-pointer transition-colors text-gray-400 hover:border-gray-300 hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <path d="M8 9h1l3 3l3 -3h1" />
+            <line x1="8" y1="15" x2="10" y2="15" />
+            <line x1="14" y1="15" x2="16" y2="15" />
+            <line x1="9" y1="9" x2="9" y2="15" />
+            <line x1="15" y1="9" x2="15" y2="15" />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    </ul>
+  </div>
+</div>
+
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-thin text-gray-400">
+    
+    Copyright © time.now() - Shahar Avigezer · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12" />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full text-black border border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="https://shahar-avigezer.github.io/js/scripts.min.js"></script>
+
+
+
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>

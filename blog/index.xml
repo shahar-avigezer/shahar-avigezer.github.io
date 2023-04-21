@@ -5,7 +5,17 @@
     <link>https://shahar-avigezer.github.io/blog/</link>
     <description>Recent content in All posts on Shahar Avigezer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shahar-avigezer.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick guide for mocking API calls with Wiremock on Docker</title>
+      <link>https://shahar-avigezer.github.io/blog/wiremock/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/blog/wiremock/</guid>
+      <description>As a developer working with microservices architecture, I know firsthand how challenging it can be to deal with dependencies on other services within the cluster or external APIs. It can sometimes slow down the development process and make debugging or testing a real headache.
+This post is all about how I implemented a solution that made my development process a whole lot easier. Wiremock is a powerful an open-source mocking tool that can simulate external service behavior and allows you to create mock servers allowing for more efficient testing and development.</description>
+    </item>
+    
     <item>
       <title>Bouncing Back from Layoff: My Emotional and Practical guide</title>
       <link>https://shahar-avigezer.github.io/blog/bounce-back-from-layoffs/</link>
