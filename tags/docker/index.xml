@@ -12,8 +12,7 @@
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://shahar-avigezer.github.io/blog/wiremock/</guid>
-      <description>As a developer working with microservices architecture, I know firsthand how challenging it can be to deal with dependencies on other services within the cluster or external APIs. It can sometimes slow down the development process and make debugging or testing a real headache.
-This post is all about how I implemented a solution that made my development process a whole lot easier. Wiremock is a powerful and open-source mocking tool that can simulate external service behavior and allows you to create mock servers for more efficient testing and development.</description>
+      <description>As a developer working with microservices architecture, I know firsthand how challenging it can be to deal with dependencies on other services within the cluster or external APIs. It can sometimes slow down the development process and make debugging or testing a real headache. This post is all about how I implemented a solution that made my development process a whole lot easier. Wiremock is a powerful and open-source mocking tool that can simulate external service behavior and allows you to create mock servers for more efficient testing and development.</description>
     </item>
     
   </channel>

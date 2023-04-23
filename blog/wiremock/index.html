@@ -157,8 +157,8 @@
 
     
 
-    <p>As a developer working with microservices architecture, I know firsthand how challenging it can be to deal with dependencies on other services within the cluster or external APIs. It can sometimes slow down the development process and make debugging or testing a real headache.</p>
-<p>This post is all about how I implemented a solution that made my development process a whole lot easier. <strong><a href="https://wiremock.org/" target="_blank" rel="noopener">Wiremock</a>
+    <p><code>As a developer working with microservices architecture, I know firsthand how challenging it can be to deal with dependencies on other services within the cluster or external APIs. It can sometimes slow down the development process and make debugging or testing a real headache. </code>
+This post is all about how I implemented a solution that made my development process a whole lot easier. <strong><a href="https://wiremock.org/" target="_blank" rel="noopener">Wiremock</a>
 </strong> is a powerful and open-source mocking tool that can simulate external service behavior and allows you to create mock servers for more efficient testing and development.</p>
 <h2 id="how-to-set-up-a-wiremock-server-on-docker">How to set up a Wiremock server on Docker?</h2>
 <p>I&rsquo;ll be using an example with one of my own favorite topics - WWE Wrestling!
@@ -222,8 +222,8 @@ The server will be called <code>wwe-server</code> and we&rsquo;re going to call 
 </span></span></code></pre></div><img src="/post-in-wiremock-docker-logs.png" class="rounded-lg shadow-sm w-full object-contain" />
 <h3 id="6---test-api-call-to-our-mock">6 - Test API call to our mock</h3>
 <p>This is a good spot to stop and test the API call</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -GET -H <span style="color:#f1fa8c">&#34;Content-type: application/json&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">&#39;http://localhost:3001/api/v1/hall-of-fame&#39;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-http" data-lang="http"><span style="display:flex;"><span>curl -GET -H &#34;Content-type: application/json&#34;
+</span></span><span style="display:flex;"><span>&#39;http://localhost:3001/api/v1/hall-of-fame&#39;
 </span></span></code></pre></div><p>Lo and behold, we get a response!</p>
 <img src="/post-in-wiremock-http-response.png" class="rounded-lg shadow-sm w-full object-contain" />
 <img src="https://media.giphy.com/media/XBWrLAZricVcBwL8r4/giphy.gif" class="rounded-lg shadow-sm w-full object-contain" />
