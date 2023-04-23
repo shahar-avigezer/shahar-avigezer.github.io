@@ -6,9 +6,9 @@
   <link rel="icon" href="/favicon.ico">
 
   <title>
-  Quick guide for mocking API calls with Wiremock on Docker - Shahar Avigezer
+  Quick Guide For Wiremock on Docker for Efficient Development - Shahar Avigezer
   </title>
-  <meta name="description" content="Develop locally without even leaving your environment! You can mock yor API calls with Wiremock for more efficient testing and development." />
+  <meta name="description" content="I&#39;m saving time and money using Wiremock for mocking API calls without even leaving my dev environment. Let me tell you how!" />
   <meta name="author" content="Shahar Avigezer" />
   <meta name="generator" content="Hugo 0.109.0"><link
     rel="stylesheet"
@@ -21,21 +21,21 @@
   
   
 
-  <meta property="og:title" content="Quick guide for mocking API calls with Wiremock on Docker" />
-<meta property="og:description" content="Develop locally without even leaving your environment! You can mock yor API calls with Wiremock for more efficient testing and development." />
+  <meta property="og:title" content="Quick Guide For Wiremock on Docker for Efficient Development" />
+<meta property="og:description" content="I&#39;m saving time and money using Wiremock for mocking API calls without even leaving my dev environment. Let me tell you how!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shahar-avigezer.github.io/blog/wiremock/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2023-04-16T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-04-16T00:00:00+00:00" />
+<meta property="article:published_time" content="2023-04-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-04-21T00:00:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Quick guide for mocking API calls with Wiremock on Docker"/>
-<meta name="twitter:description" content="Develop locally without even leaving your environment! You can mock yor API calls with Wiremock for more efficient testing and development."/>
+<meta name="twitter:title" content="Quick Guide For Wiremock on Docker for Efficient Development"/>
+<meta name="twitter:description" content="I&#39;m saving time and money using Wiremock for mocking API calls without even leaving my dev environment. Let me tell you how!"/>
 
-  <meta itemprop="name" content="Quick guide for mocking API calls with Wiremock on Docker">
-<meta itemprop="description" content="Develop locally without even leaving your environment! You can mock yor API calls with Wiremock for more efficient testing and development."><meta itemprop="datePublished" content="2023-04-16T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-04-16T00:00:00+00:00" />
-<meta itemprop="wordCount" content="493">
+  <meta itemprop="name" content="Quick Guide For Wiremock on Docker for Efficient Development">
+<meta itemprop="description" content="I&#39;m saving time and money using Wiremock for mocking API calls without even leaving my dev environment. Let me tell you how!"><meta itemprop="datePublished" content="2023-04-21T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-04-21T00:00:00+00:00" />
+<meta itemprop="wordCount" content="539">
 <meta itemprop="keywords" content="software,tools,dev,docker,mock," />
 
   
@@ -115,7 +115,7 @@
   <article class="prose lg:prose-lg mx-auto my-8 prose-dark px-4 "
    >
 
-    <h1 class="text-2xl font-bold mb-2">Quick guide for mocking API calls with Wiremock on Docker</h1>
+    <h1 class="text-2xl font-bold mb-2">Quick Guide For Wiremock on Docker for Efficient Development</h1>
     
     <h5 class="text-sm flex items-center flex-wrap">
       <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -128,7 +128,7 @@
       </svg>
       
   
-    April 16, 2023
+    April 21, 2023
   
 
 
@@ -150,7 +150,7 @@
         <line x1="12" y1="6" x2="12" y2="19" />
         <line x1="21" y1="6" x2="21" y2="19" />
       </svg>
-      493&nbsp;words
+      539&nbsp;words
       
     </h5>
     
@@ -159,9 +159,9 @@
 
     <p>As a developer working with microservices architecture, I know firsthand how challenging it can be to deal with dependencies on other services within the cluster or external APIs. It can sometimes slow down the development process and make debugging or testing a real headache.</p>
 <p>This post is all about how I implemented a solution that made my development process a whole lot easier. <strong><a href="https://wiremock.org/" target="_blank" rel="noopener">Wiremock</a>
-</strong> is a powerful an open-source mocking tool that can simulate external service behavior and allows you to create mock servers allowing for more efficient testing and development.</p>
+</strong> is a powerful and open-source mocking tool that can simulate external service behavior and allows you to create mock servers for more efficient testing and development.</p>
 <h2 id="how-to-set-up-a-wiremock-server-on-docker">How to set up a Wiremock server on Docker?</h2>
-<p>I&rsquo;ll be using an example with on of my own favorite topics - WWE Wrestling!
+<p>I&rsquo;ll be using an example with one of my own favorite topics - WWE Wrestling!
 The server will be called <code>wwe-server</code> and we&rsquo;re going to call <code>api/v1/hall-of-fame</code> endpoint to get a list of hall of famers wrestlers.</p>
 <img src="https://media.giphy.com/media/VHYfQwokdZNwf0Ymo1/giphy.gif" class="rounded-lg shadow-sm w-full object-contain" />
 <h3 id="1---install-wiremock-package">1 - Install Wiremock package</h3>
@@ -229,15 +229,17 @@ The server will be called <code>wwe-server</code> and we&rsquo;re going to call 
 <img src="https://media.giphy.com/media/XBWrLAZricVcBwL8r4/giphy.gif" class="rounded-lg shadow-sm w-full object-contain" />
 ---
 <h2 id="down-to-the-wire">Down to the wire</h2>
-<p>As you can see, The API calls have&hellip; <em>spoiler: a mediocre joke ahead -</em> No Way Out 🥁 (former WWE wrestling event). By using simple JSON files I&rsquo;m able to mock the external APIs response and continue to work on my own server.</p>
+<p>As you can see, The API calls have&hellip; <em>spoiler: a mediocre joke ahead -</em> No Way Out 🥁 (former WWE wrestling event).
+I Find it very handy when I have a small change and I don&rsquo;t want to waist time on building and running multiple services. By using simple JSON files I&rsquo;m able to mock the external APIs response and continue to work on my own pace.
+The other reason I find mocking usefull is testing when the external API can be flaky, limited, expensive or just slow.</p>
 <h3 id="pros">Pros</h3>
 <ol>
-<li>You can run faster in your testing or development without having to run a whole local setup.</li>
+<li>You can run faster in your testing or development without having to run a complete local setup.</li>
 <li>You save calls to external services which comes in handy to avoid hitting API rate limit.</li>
 </ol>
 <h3 id="cons">Cons</h3>
 <ol>
-<li>You&rsquo;ll need to plan ahead your calls mapping is not dynamic so make sure you align your calls with the data. However, you can use regex for matching different query params.</li>
+<li>You’ll need to plan your mock API calls. Mapping is not dynamic, so make sure you align your request payload with the data. However, you can use regex for matching different query params.</li>
 <li>You&rsquo;ll have to maintain your data with the expected response of the external API calls.</li>
 </ol>
 <h2 id="-ding-ding-ding">🔔 Ding Ding Ding</h2>
