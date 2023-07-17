@@ -15,14 +15,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Query like A Pro — MongoDB Toolbox</title>
-      <link>https://shahar-avigezer.github.io/blog/mongo-db-query/</link>
-      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://shahar-avigezer.github.io/blog/mongo-db-query/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

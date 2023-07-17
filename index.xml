@@ -109,15 +109,6 @@ This post is all about how I implemented a solution that made my development pro
     </item>
     
     <item>
-      <title>Query like A Pro — MongoDB Toolbox</title>
-      <link>https://shahar-avigezer.github.io/blog/mongo-db-query/</link>
-      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://shahar-avigezer.github.io/blog/mongo-db-query/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>5 Takeaways From My First Job as a Software Developer</title>
       <link>https://shahar-avigezer.github.io/blog/first-year-takeaways/</link>
       <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
@@ -141,7 +132,7 @@ This post is all about how I implemented a solution that made my development pro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shahar-avigezer.github.io/page/about/</guid>
-      <description>Hi, I&amp;rsquo;m Shahar, I&amp;rsquo;ve a full stack developer for the past 6 years, currently working at Riskified mainly in JavaScript, Scala, React, Node.js. Before I fell in love with the world of development, I was a UX/UI designer for about 4 years. You can read more about it more here . In my everyday life (and at night too) I am a mother of 3 children + a dog and my superpower is being a mother of twins!</description>
+      <description>Hi, I&amp;rsquo;m Shahar, I&amp;rsquo;ve a full stack developer for the past 6 years, currently working at Riskified mainly in JavaScript: Node.js + React, . Before I fell in love with the world of development, I was a UX/UI designer for about 4 years. You can read more about it more here . In my everyday life (and at night too) I am a mom of 3 children and my superpower is being a mom of twins!</description>
     </item>
     
     <item>
@@ -150,8 +141,8 @@ This post is all about how I implemented a solution that made my development pro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shahar-avigezer.github.io/he/page/about/</guid>
-      <description>היי, אני שחר, אני מפתחת Full stack כבר 6 שנים, כרגע עובדת בחברת Riskified בעיקר בJavaScript, Scala, React, Node.js. לפני שהתאהבתי בעולם הפיתוח, הייתי מעצבת UX/UI כ4 שנים. אפשר לקרוא עוד על זה כאן . בחיי היום-יום (וגם בלילה) אני אמא ל3 ילדים + כלבה וכוח העל שלי הוא להיות אמא לתאומות!
-כשאני לא כותבת קוד ורצה בבית אחרי זאטוטים, אני סורגת כובעים, מצייצת בטוויטר וכותבת עוד ועוד פוסטים (אז תחזרו לבקר, אל תהיו כאלה!</description>
+      <description>היי, אני שחר, אני מפתחת פולסטאק כבר 6 שנים, כרגע עובדת בחברת Riskified בעיקר JavaScript: Node.js + React . לפני שהתאהבתי בעולם הפיתוח, הייתי מעצבת UX/UI כ4 שנים. עוד על סיפור ההסבה שלי כאן .
+בחיי היום-יום (וגם בלילה) אני אמא ל3 ילדים וכוח העל שלי הוא להיות אמא לתאומות! כשאני לא כותבת קוד ורצה בבית אחרי זאטוטים, אני סורגת כובעים, מצייצת בטוויטר וכותבת בבלוג, אז תחזרו לבקר, אל תהיו כאלה!</description>
     </item>
     
   </channel>
