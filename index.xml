@@ -132,7 +132,9 @@ This post is all about how I implemented a solution that made my development pro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shahar-avigezer.github.io/page/about/</guid>
-      <description>Hi, I&amp;rsquo;m Shahar, I&amp;rsquo;ve a full stack developer for the past 6 years, currently working at Riskified mainly in JavaScript: Node.js + React, . Before I fell in love with the world of development, I was a UX/UI designer for about 4 years. You can read more about it more here . In my everyday life (and at night too) I am a mom of 3 children and my superpower is being a mom of twins!</description>
+      <description>I’m Shahar, a Full Stack Developer, former UX/UI designer. In my work at Riskified , I focus mainly on Typescript on both FE &amp;amp; BE and my tech-kick is writing tests and trying to optimize our developer workflows.
+When I’m off the clock, I’m navigating the beautiful mess of parenting three kids, sharing my thoughts on Twitter and bringing my creative ideas to life.
+When I&amp;rsquo;m not writing code and running around the house after my kids, I&amp;rsquo;m knitting hats, tweeting and creating stuff I&amp;rsquo;m passionate about.</description>
     </item>
     
     <item>
@@ -141,8 +143,9 @@ This post is all about how I implemented a solution that made my development pro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shahar-avigezer.github.io/he/page/about/</guid>
-      <description>היי, אני שחר, אני מפתחת פולסטאק כבר 6 שנים, כרגע עובדת בחברת Riskified בעיקר JavaScript: Node.js + React . לפני שהתאהבתי בעולם הפיתוח, הייתי מעצבת UX/UI כ4 שנים. עוד על סיפור ההסבה שלי כאן .
-בחיי היום-יום (וגם בלילה) אני אמא ל3 ילדים וכוח העל שלי הוא להיות אמא לתאומות! כשאני לא כותבת קוד ורצה בבית אחרי זאטוטים, אני סורגת כובעים, מצייצת בטוויטר וכותבת בבלוג, אז תחזרו לבקר, אל תהיו כאלה!</description>
+      <description>היי, אני שחר, אני מפתחת fullstack, בעבר מעצבת UX/UI. אני מפתחת בRiskified בעיקר בTS/JavaScript: Node.js + React. האקסטרה קיק שלי הוא לכתוב טסטים ולשפר (אפילו כמיקרו-אופטימיזציה) את חווית הפיתוח אצלנו.
+כשאני מחוץ לקוד, אני רצה אחרי שלושה זאטוטים, מצייצת בטוויטר ויוצרת (בקוד, בסריגה, בציור) כל מה שעולה לי בראש.
+רוצים לקשקש? אפשר להשיג אותי בלינקדאין או בטוויטר </description>
     </item>
     
   </channel>
