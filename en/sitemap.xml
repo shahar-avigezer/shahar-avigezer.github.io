@@ -178,6 +178,8 @@
     <loc>https://shahar-avigezer.github.io/tags/job-search/</loc>
     <lastmod>2017-08-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://shahar-avigezer.github.io/he/page/about/</loc>
+  </url><url>
     <loc>https://shahar-avigezer.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -225,7 +227,5 @@
                 hreflang="en"
                 href="https://shahar-avigezer.github.io/tags/ux/ui/"
                 />
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/he/page/about/</loc>
   </url>
 </urlset>

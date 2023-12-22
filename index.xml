@@ -127,24 +127,24 @@ This post is all about how I implemented a solution that made my development pro
     </item>
     
     <item>
-      <title>Nice to meet you!</title>
+      <title>!הו שלום, נעים להכיר</title>
+      <link>https://shahar-avigezer.github.io/he/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahar-avigezer.github.io/he/page/about/</guid>
+      <description>היי, אני שחר, אני מפתחת fullstack, בעבר מעצבת UX/UI. אני מפתחת בRiskified בעיקר בTS/JavaScript: Node.js + React. בין היתר, אוהבת את עולם הטסטים (כן, באמת) ולשפר את חווית הפיתוח אצלנו.
+כשאני לא בעבודה, אני רצה אחרי שלושה זאטוטים (הם שלי, זה בסדר), מצייצת בטוויטר ויוצרת כל מה שעולה לי בראש בין אם זה בקוד, בסריגה, בציור או כתיבה בבלוג שלי, ממש כאן! אז תבואו לבקר שוב!
+רוצים לקשקש? אפשר להשיג אותי בלינקדאין או בטוויטר </description>
+    </item>
+    
+    <item>
+      <title>Hi, nice to meet you!</title>
       <link>https://shahar-avigezer.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shahar-avigezer.github.io/page/about/</guid>
       <description>I’m Shahar, a Full Stack Developer, former UX/UI designer. In my work at Riskified , I focus mainly on Typescript on both FE &amp;amp; BE and my tech-kick is writing tests and trying to optimize our developer workflows.
 When I’m off the clock, I’m navigating the beautiful mess of parenting three kids, sharing my thoughts on Twitter and creating stuff I&amp;rsquo;m passionate about. On this blog, I&amp;rsquo;ll be sharing my thoughts and tips on all things tech, parenting, and life in general.</description>
-    </item>
-    
-    <item>
-      <title>נעים להכיר</title>
-      <link>https://shahar-avigezer.github.io/he/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shahar-avigezer.github.io/he/page/about/</guid>
-      <description>היי, אני שחר, אני מפתחת fullstack, בעבר מעצבת UX/UI. אני מפתחת בRiskified בעיקר בTS/JavaScript: Node.js + React. בין היתר, אוהבת את עולם הטסטים (כן, באמת) ולשפר את חווית הפיתוח אצלנו.
-כשאני לא בעבודה, אני רצה אחרי שלושה זאטוטים, מצייצת בטוויטר ויוצרת כל מה שעולה לי בראש בין אם זה בקוד, בסריגה, בציור וכתיבה בבלוג שלי!
-רוצים לקשקש? אפשר להשיג אותי בלינקדאין או בטוויטר </description>
     </item>
     
   </channel>
