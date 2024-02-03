@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://shahar-avigezer.github.io/blog/</loc>
-    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -15,20 +15,17 @@
                 href="https://shahar-avigezer.github.io/blog/"
                 />
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/dev/</loc>
-    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/tags/development/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/docker/</loc>
-    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/tags/intellij/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/mock/</loc>
-    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/blog/wiremock/</loc>
-    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+    <loc>https://shahar-avigezer.github.io/blog/intelij-http-client/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/</loc>
-    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -41,7 +38,7 @@
                 />
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/software/</loc>
-    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -54,7 +51,7 @@
                 />
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/</loc>
-    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
@@ -65,6 +62,21 @@
                 hreflang="en"
                 href="https://shahar-avigezer.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/workflow/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/dev/</loc>
+    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/docker/</loc>
+    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/mock/</loc>
+    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/blog/wiremock/</loc>
+    <lastmod>2023-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/tools/</loc>
     <lastmod>2023-04-21T00:00:00+00:00</lastmod>
