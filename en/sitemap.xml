@@ -66,6 +66,22 @@
     <loc>https://shahar-avigezer.github.io/tags/workflow/</loc>
     <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://shahar-avigezer.github.io/blog/onboarding-tips/</loc>
+    <lastmod>2023-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shahar-avigezer.github.io/tags/open-source/</loc>
+    <lastmod>2023-09-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://shahar-avigezer.github.io/he/tags/open-source/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shahar-avigezer.github.io/tags/open-source/"
+                />
+  </url><url>
     <loc>https://shahar-avigezer.github.io/tags/dev/</loc>
     <lastmod>2023-04-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -92,19 +108,6 @@
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/layoffs/</loc>
     <lastmod>2023-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shahar-avigezer.github.io/tags/open-source/</loc>
-    <lastmod>2023-02-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="he"
-                href="https://shahar-avigezer.github.io/he/tags/open-source/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shahar-avigezer.github.io/tags/open-source/"
-                />
   </url><url>
     <loc>https://shahar-avigezer.github.io/tags/podcast/</loc>
     <lastmod>2023-02-12T00:00:00+00:00</lastmod>
