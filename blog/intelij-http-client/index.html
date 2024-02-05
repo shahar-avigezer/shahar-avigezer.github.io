@@ -35,7 +35,7 @@
   <meta itemprop="name" content="Minimizing Context Switch With IntelliJ HTTP Client Tool">
 <meta itemprop="description" content="IntelliJ users - this one is for you! I found this awesome tool for sending HTTP calls straight from the IDE. Check it out &gt;"><meta itemprop="datePublished" content="2024-02-02T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2024-02-02T00:00:00+00:00" />
-<meta itemprop="wordCount" content="724">
+<meta itemprop="wordCount" content="720">
 <meta itemprop="keywords" content="software,development,workflow,intelliJ," />
 
   
@@ -150,7 +150,7 @@
         <line x1="12" y1="6" x2="12" y2="19" />
         <line x1="21" y1="6" x2="21" y2="19" />
       </svg>
-      724&nbsp;words
+      720&nbsp;words
       
     </h5>
     
@@ -172,6 +172,7 @@ I used to work closely with Postman/Postwoman for API calls while developing (st
 POST /character (with HMAC authentication)
 </code></pre><hr>
 <h3 id="lets-start-the-journey-fellowship">Let&rsquo;s Start the journey, fellowship</h3>
+<img src="https://media.giphy.com/media/HVr4gFHYIqeti/giphy.gif?cid=ecf05e47herx6c1l6ane5j70bvypb94gxcto4pcjnux4zqze&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="rounded-lg shadow-sm h-96 w-full object-contain" />
 <h4 id="initiate-http-client">Initiate HTTP Client</h4>
 <p>Open your project in intelij and create your first request
 <img src="/post-in-intelij-tools-client.png" class="rounded-lg shadow-sm h-96 w-full object-contain" /></p>
@@ -212,6 +213,7 @@ Since it requires hashing action before the actual request being sent, Here&rsqu
 </code></pre><p>select the specific environment from the top toolbar and hit <code>Run</code> again.
 <img src="/post-in-intelij-http-client-dev-env.png" class="rounded-lg shadow-sm h-72 w-full object-contain" /></p>
 <h3 id="post-it">Post it</h3>
+<img src="https://media.giphy.com/media/8Xu2IkvLsjyLe/giphy.gif?cid=790b7611enr49az6k6mgjlb3h2htoyuoq88zfnr8ebhvhbk0&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="rounded-lg shadow-sm h-72 w-full object-contain" />
 <p>The full post request with body parameters and our authentication:</p>
 <pre tabindex="0"><code>### POST characters
 &lt; {%
@@ -228,12 +230,13 @@ X-TOKEN: {{signature}}
   &#34;birthYear&#34;: &#34;1988&#34;
 }
 </code></pre><img src="/post-in-intelij-http-client-post-res.png" class="rounded-lg shadow-sm w-full object-contain" />
+<hr>
 <h4 id="you-shell-not-pass"><strong>YOU SHELL NOT PASS</strong></h4>
-<p>If you encounter the above bellow, it means the environment is either not selected or the variable does not exist.
-Keep calm and carry on :)</p>
+<p>If you encounter the above bellow, it means the environment is either not selected or the variable does not exist.</p>
 <pre tabindex="0"><code class="language-error" data-lang="error">Runtime error: Parameter specified as non-null is null: 
 method com.intellij.httpClient.http.request.run.preScript
-</code></pre><h3 id="even-the-smallest-person-tool-can-change-the-course-of-the-future">&ldquo;Even the smallest p̶e̶r̶s̶o̶n̶ tool can change the course of the future&rdquo;</h3>
+</code></pre><hr>
+<h3 id="even-the-smallest-person-tool-can-change-the-course-of-the-future">&ldquo;Even the smallest p̶e̶r̶s̶o̶n̶ tool can change the course of the future&rdquo;</h3>
 <p>While using this tool for a while I realized that with a simple click (or keyboard shortcut for those who are cool as me) I get to check the code quicker, which made my workflow so much easier.
 I can define several calls and eventually make these calls in to actual tests!
 <img src="/post-in-intelij-http-client-usage.png" class="rounded-lg shadow-sm w-full object-contain" /></p>
@@ -251,8 +254,8 @@ In the <em>Convert cURL to HTTP Request</em> dialog, paste the cURL request that
 There are numerous possibilities to share this information but one of my favorite advantages of using it over other tools is having it all in one place which make the maintenance much easier.<br>
 Adding this directory can save time in word-to-mouth hacks of example calls.</p>
 <hr>
-<p>Hope you had a blast of reading just like I had writing it, until next time!</p>
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDNsNGU3cXUxcG1sMTJwMm00dWdlbHRoZ3Q5dHUzMXplMHhleno0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l49FqlUguNsGDNCGk/giphy.gif" class="rounded-lg shadow-sm h-96 w-full object-contain" />
+<p>Hope you had a blast of reading this post just like I had writing it, until next time!</p>
+<img src="https://media.giphy.com/media/2XflxzGoMXkpe9bvyk8/giphy.gif?cid=790b76113gpp6upz5p0okbz024fx4s4krihjxlngrldkt49l&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="rounded-lg shadow-sm h-96 w-full object-contain" />
 
   </article><div class="bg-gray-900">
   <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
