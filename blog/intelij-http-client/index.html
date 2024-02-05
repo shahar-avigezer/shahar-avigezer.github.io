@@ -6,9 +6,9 @@
   <link rel="icon" href="/favicon.ico">
 
   <title>
-  Minimizing Context Switch With IntelliJ HTTP Client Tool - Shahar Avigezer
+  Minimizing Context Switch With JetBrains HTTP Client Tool - Shahar Avigezer
   </title>
-  <meta name="description" content="IntelliJ users - this one is for you! I found this awesome tool for sending HTTP calls straight from the IDE. Check it out &gt;" />
+  <meta name="description" content="JetBrains users - this one is for you! I&#39;m this awesome tool for sending HTTP calls straight from the IDE. Check it out &gt;" />
   <meta name="author" content="Shahar Avigezer" />
   <meta name="generator" content="Hugo 0.109.0"><link
     rel="stylesheet"
@@ -21,21 +21,21 @@
   
   
 
-  <meta property="og:title" content="Minimizing Context Switch With IntelliJ HTTP Client Tool" />
-<meta property="og:description" content="IntelliJ users - this one is for you! I found this awesome tool for sending HTTP calls straight from the IDE. Check it out &gt;" />
+  <meta property="og:title" content="Minimizing Context Switch With JetBrains HTTP Client Tool" />
+<meta property="og:description" content="JetBrains users - this one is for you! I&#39;m this awesome tool for sending HTTP calls straight from the IDE. Check it out &gt;" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shahar-avigezer.github.io/blog/intelij-http-client/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2024-02-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-02-02T00:00:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Minimizing Context Switch With IntelliJ HTTP Client Tool"/>
-<meta name="twitter:description" content="IntelliJ users - this one is for you! I found this awesome tool for sending HTTP calls straight from the IDE. Check it out &gt;"/>
+<meta name="twitter:title" content="Minimizing Context Switch With JetBrains HTTP Client Tool"/>
+<meta name="twitter:description" content="JetBrains users - this one is for you! I&#39;m this awesome tool for sending HTTP calls straight from the IDE. Check it out &gt;"/>
 
-  <meta itemprop="name" content="Minimizing Context Switch With IntelliJ HTTP Client Tool">
-<meta itemprop="description" content="IntelliJ users - this one is for you! I found this awesome tool for sending HTTP calls straight from the IDE. Check it out &gt;"><meta itemprop="datePublished" content="2024-02-02T00:00:00+00:00" />
+  <meta itemprop="name" content="Minimizing Context Switch With JetBrains HTTP Client Tool">
+<meta itemprop="description" content="JetBrains users - this one is for you! I&#39;m this awesome tool for sending HTTP calls straight from the IDE. Check it out &gt;"><meta itemprop="datePublished" content="2024-02-02T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2024-02-02T00:00:00+00:00" />
-<meta itemprop="wordCount" content="720">
+<meta itemprop="wordCount" content="727">
 <meta itemprop="keywords" content="software,development,workflow,intelliJ," />
 
   
@@ -115,7 +115,7 @@
   <article class="prose lg:prose-lg mx-auto my-8 prose-dark px-4 "
    >
 
-    <h1 class="text-2xl font-bold mb-2">Minimizing Context Switch With IntelliJ HTTP Client Tool</h1>
+    <h1 class="text-2xl font-bold mb-2">Minimizing Context Switch With JetBrains HTTP Client Tool</h1>
     
     <h5 class="text-sm flex items-center flex-wrap">
       <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -150,7 +150,7 @@
         <line x1="12" y1="6" x2="12" y2="19" />
         <line x1="21" y1="6" x2="21" y2="19" />
       </svg>
-      720&nbsp;words
+      727&nbsp;words
       
     </h5>
     
@@ -164,9 +164,9 @@ Now, I&rsquo;ll show you the way to Mordor! jk, just the way to a faster develop
 I used to work closely with Postman/Postwoman for API calls while developing (still do in some cases) but when I found out I can test my API without leaving my IDE, I got excited and gave it a go.</p>
 <p>To be completely honest, IntelliJ was never my first pick as an IDE&rsquo;s but ever since I started using it again in my new job, I&rsquo;m discovering more and more helpful features that I would have needed to search and install in other IDE&rsquo;s. So kudos IntelliJ, you&rsquo;ve made it in my top favorite IDEs.</p>
 <h4 id="requirements">Requirements</h4>
-<p>A running server with http API endpoints</p>
+<p>A running server with http API endpoints (I&rsquo;ll be using IntelliJ by JetBrains)</p>
 <h4 id="example-code">Example Code</h4>
-<p>You can follow along in a basic LOTR API server I created with 2 endpoints, download it right <a href="https://github.com/shahar-avigezer/lotr-server" target="_blank" rel="noopener">here</a>
+<p>You can follow along in a basic LOTR API server I created with 2 endpoints (Node.js), download it right <a href="https://github.com/shahar-avigezer/lotr-server" target="_blank" rel="noopener">here</a>
 </p>
 <pre tabindex="0"><code>GET /character (No auth)
 POST /character (with HMAC authentication)
